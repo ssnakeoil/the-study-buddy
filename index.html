@@ -32,32 +32,42 @@
     <!-- Establishing two columns -->
     <div class="columns is-desktop is-vcentered is-centered">
         <!-- Column containing question and scale -->
-        <div class="column is-half">
-            <h1 id="titleCard"> Question Number </h1>
-            <p>The question</p>
-            
-        </div>
-        <div class="column is-half"><p>Scale</p>
-            <div class="buttons has-addons is-centered">
-                <button class="button">1</button>
-                <button class="button">2</button>
-                <button class="button">3</button>
-                <button class="button">4</button>
-                <button class="button">5</button>
-                <button class="button">6</button>
-                <button class="button">7</button>
-                <button class="button">8</button>
-                <button class="button">9</button>
-                <button class="button">10</button>
-              </div>
+        <section class="questions">
+          <div class="column is-half">
+              <h1 id="titleCard"> Question Number </h1>
+              <p>The question</p>
+          
+          </div>
+        </section>   
         
-            <div class="buttons is-centered">
-                <button class="button is-success" id="backBtn">Previous Question</button>
-                <button class="button is-success" id="nextBtn">Next Question</button>
+        <section class="buttons">
+          <div class="column is-half"><p>Scale</p>
+              <div class="buttons has-addons is-centered">
+                  <button class="answerButton">1</button>
+                  <button class="answerButton">2</button>
+                  <button class="answerButton">3</button>
+                  <button class="answerButton">4</button>
+                  <button class="answerButton">5</button>
+                  <button class="asnwerButton">6</button>
+                  <button class="answerButton">7</button>
+                  <button class="asnwerButton">8</button>
+                  <button class="asnwerButton">9</button>
+                  <button class="asnwerButton">10</button>
+                </div>
+          
+              <div class="buttons is-centered">
+                  <button class="button is-success" id="backBtn">Previous Question</button>
+                  <button class="button is-success" id="nextBtn">Next Question</button>
+                </div>
+              <br>
+              <progress class="progress is-primary" value="0" max="100">0%</progress></div>
             </div>
-            <br>
-            <progress class="progress is-primary" value="0" max="100">0%</progress></div>
-    </div>
+          </section>
+
+          <section class="card-timer">
+            <div class="timer-text"></div>
+            <h4>second(s) left</h4>
+          </section>
     <link src="script" href="assets/script.js">
 </body>
 <footer class="footer">
