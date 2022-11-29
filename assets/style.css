@@ -10,7 +10,7 @@
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding:0;
-    color: #333
+    color: rgb(43, 39, 48)
 }
 
 h1,
@@ -21,7 +21,7 @@ h4{
 }
 
 h1{
-    font-size: 5.4rem;
+    font-size: 6rem;
     color:#687bd1;
     margin-bottom: 5rem
 }
@@ -63,27 +63,27 @@ h3{
 .flex-column {
     display: flex;
     flex-direction: column;
+}
+  
+ .flex-center {
+  justify-content: center;
+  align-items: center;
+}
+  
+.justify-center {
+  justify-content: center;
   }
   
-  .flex-center {
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .justify-center {
-    justify-content: center;
-  }
-  
-  .text-center {
+.text-center {
     text-align: center;
-  }
+ }
   
-  .hidden {
+.hidden {
     display: none;
-  }
+ }
   
-  /* BUTTONS */
-  .btn {
+  /* BUTTONS for all htmls*/
+.btn {
     font-size: 1.8rem;
     padding: 1rem 0;
     width: 20rem;
@@ -94,7 +94,7 @@ h3{
     color: #687bd1;
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
-  }
+}
   
   .btn:hover {
     cursor: pointer;
@@ -102,7 +102,7 @@ h3{
     transform: translateY(-0.1rem);
     transition: transform 150ms;
   }
-  
+  /* save button is disabled when there is no input for username */
   .btn[disabled]:hover {
     cursor: not-allowed;
     box-shadow: none;
@@ -111,7 +111,7 @@ h3{
   }
 
   
-/* FORMS */
+/* FORMS for highscore page */
 form {
   width: 100%;
   display: flex;
@@ -123,11 +123,11 @@ input {
   margin-bottom: 1rem;
   width: 20rem;
   padding: 1.5rem;
-  font-size: 1.8rem;
+  font-size: 2rem;
   border: none;
-  box-shadow: 0 0.1rem 1.4rem 0 rgba(5, 28, 49, 0.25);
+  box-shadow: 0 0.1rem 1.4rem 0 rgba(88, 46, 241, 0.25);
 }
 
 input::placeholder {
-  color: lightgray;
+  color: gray;
 }

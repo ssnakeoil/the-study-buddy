@@ -11,13 +11,14 @@
 </head>
 <body>
     <div class="container">
+
+      <!-- Loader will appear if questions have not fully loaded -->
         <div id="loader"></div>
         <div id="game" class="justify-center flex-column hidden">
             <div id="hud">
                 <div id="hud-item">
-                    <p class="hud-prefix" id="progressText">
-                        Question
-                    </p>
+                    <p class="hud-prefix" id="progressText"></p>
+                    <!--  the filling of the progress bar changes as questions are answered  -->
                     <div id="progressBar">
                         <div id="progressBarFull"></div>
                     </div>
@@ -31,6 +32,8 @@
                     </h1>
                 </div>
             </div>
+
+            <!-- where Question prompted from API list and choices will appear -->
             <h2 id="question"> </h2>
             <div class="choice-container">
                  <p class="choice-prefix">A</p>
@@ -94,4 +97,5 @@
       <script src="assets/dictionary.js"></script>
     <!-- end Dictionary API -->
 </body>
+
 </html>

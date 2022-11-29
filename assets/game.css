@@ -2,9 +2,10 @@
 display: flex;
 margin-bottom: 0.5rem;
 width: 100%;
-font-size: 1.8rem;
+font-size: 2.5rem;
 border: 0.1rem solid rgba(5, 28, 49, 0.25);
 background-color: white;
+border-radius: 25px;
 }
 .choice-container:hover{
     cursor:pointer;
@@ -16,11 +17,13 @@ background-color: white;
     padding: 1.5rem 2.5rem;
     background-color: #687bd1;
     color: white;
+    border-radius: 25px;
 }
 
 .choice-text{
     padding: 1.5rem;
-    width: 100%
+    width: 100%;
+   
 }
 
 
@@ -33,6 +36,7 @@ justify-content: space-between;
 .hud-prefix{
     text-align: center;
     font-size:2rem;
+    font-weight: 700;
 }
 
 .hud-main-text{
@@ -40,10 +44,11 @@ justify-content: space-between;
 }
 
 #progressBar{
-    width: 20rem;
+    width: 25rem;
     height: 4rem;
     border:0.3rem solid #687bd1;
     margin-top: 2rem;
+    border-radius: 10px;
 
 } 
 
@@ -54,7 +59,7 @@ justify-content: space-between;
 }
 
 .correct{
-    background-color: aquamarine;
+    background-color: rgb(127, 255, 202);
 }
 .incorrect{
     background-color:lightcoral;
@@ -68,7 +73,7 @@ justify-content: space-between;
     height: 12rem;
     animation: spin 2s linear infinite;
   }
-  
+  /* animation for loader circle */
   @keyframes spin {
     0% {
       transform: rotate(0deg);
@@ -78,10 +83,10 @@ justify-content: space-between;
     }
   }
 
+
+
+
 /* Dictionary API formatting */
-
-/* Import Google Font - Poppins */
-
 body{
   display: flex;
   align-items: center;
@@ -91,7 +96,7 @@ body{
 }
 ::selection{
   color: #fff;
-  background: #687bd1;
+  background: #373941;
 }
 .wrapper{
   width: 420px;
