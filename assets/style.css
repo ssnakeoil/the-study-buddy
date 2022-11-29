@@ -1,5 +1,5 @@
 :root{
-    background-color: #ecf5ff;
+    background: linear-gradient(#ecf5ff, #FFBE94);
     font-size: 64.5%;
 }
 
@@ -131,3 +131,19 @@ input {
 input::placeholder {
   color: gray;
 }
+
+/* Buddy  */
+.buddy-index {
+  animation-name: buddyFloat;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes buddyFloat {
+  0% {margin-top: 0px;}
+  25% {margin-top: 10px;}
+  50% {margin-top: 20px;}
+  75% {margin-top: 10px;}
+  100% {margin-top: 0px;}
+}
+  

@@ -6,6 +6,7 @@ font-size: 2.5rem;
 border: 0.1rem solid rgba(5, 28, 49, 0.25);
 background-color: white;
 border-radius: 25px;
+padding: 10px;
 }
 .choice-container:hover{
     cursor:pointer;
@@ -17,7 +18,8 @@ border-radius: 25px;
     padding: 1.5rem 2.5rem;
     background-color: #687bd1;
     color: white;
-    border-radius: 25px;
+    margin-left: 2rem;
+    border-radius: 4px 20px;
 }
 
 .choice-text{
@@ -92,13 +94,14 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #c3d8f6;
+  /* background: #c3d8f6; */
 }
 ::selection{
   color: #fff;
   background: #373941;
 }
 .wrapper{
+  margin-right: 5rem;
   width: 420px;
   border-radius: 7px;
   background: #fff;
@@ -230,4 +233,10 @@ ul .content::-webkit-scrollbar{
   cursor: pointer;
   margin-right: 5px;
   text-decoration: underline;
+}
+
+/* Buddy */
+.buddy {
+  margin-left: -28px;
+  margin-top: -170px;
 }
