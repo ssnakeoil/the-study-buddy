@@ -2,10 +2,7 @@
 # team-10-project-1
 
 ## User Story
-AS A coding boot camp student I WANT to get my vibe checked SO THAT I can guage my results based on a gif and Youtube video
-
-## Acceptance Criteria
-
+AS A coding boot camp student I WANT to reference my potential answer choices SO THAT I can increase my chance to get a better quiz score.
 
 ## Work Completed
 Use a CSS framework other than Bootstrap.
@@ -28,4 +25,8 @@ Have a clean repository that meets quality coding standards (file structure, nam
 
 Have a quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
 
+## Screenshot
+![sb_game.png](/assets/images/sb_game.png)
+
 ## Website URL
+https://ssnakeoil.github.io/team-10-project-1/
