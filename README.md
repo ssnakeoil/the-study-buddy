@@ -27,4 +27,7 @@ Have a clean repository that meets quality coding standards (file structure, nam
 
 Have a quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
 
+## Screenshots
+![sb_game.png](/assets/images/sb_game.png)
+
 ## Website URL
