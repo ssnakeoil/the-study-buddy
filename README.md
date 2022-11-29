@@ -3,9 +3,6 @@
 ## User Story
 AS A coding boot camp student I WANT to reference my potential answer choices SO THAT I can increase my chance to get a better quiz score.
 
-## Acceptance Criteria
-
-
 ## Work Completed
 Use a CSS framework other than Bootstrap.
 
