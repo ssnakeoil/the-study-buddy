@@ -2,25 +2,28 @@
 display: flex;
 margin-bottom: 0.5rem;
 width: 100%;
-font-size: 1.8rem;
-border: 0.1rem solid rgb(86, 165, 235, 0.25);
+font-size: 2.5rem;
+border: 0.1rem solid rgba(5, 28, 49, 0.25);
 background-color: white;
+border-radius: 25px;
 }
 .choice-container:hover{
     cursor:pointer;
-    box-shadow: 0 0.4rem 1.5rem rgb(86, 165, 235, 0.5);
+    box-shadow: 0 0.4rem 1.5rem rgba(5, 28, 49, 0.25);
     transform: translateY(-0.1rem);
     transition: transform 150ms;
 }
 .choice-prefix{
     padding: 1.5rem 2.5rem;
-    background-color: #56a5eb;
+    background-color: #687bd1;
     color: white;
+    border-radius: 25px;
 }
 
 .choice-text{
     padding: 1.5rem;
-    width: 100%
+    width: 100%;
+   
 }
 
 
@@ -33,6 +36,7 @@ justify-content: space-between;
 .hud-prefix{
     text-align: center;
     font-size:2rem;
+    font-weight: 700;
 }
 
 .hud-main-text{
@@ -40,21 +44,22 @@ justify-content: space-between;
 }
 
 #progressBar{
-    width: 20rem;
+    width: 25rem;
     height: 4rem;
-    border:0.3rem solid #56a5eb;
+    border:0.3rem solid #687bd1;
     margin-top: 2rem;
+    border-radius: 10px;
 
 } 
 
 #progressBarFull{
     height: 3.4rem;
-    background-color:#56a5eb;
+    background-color:#687bd1;
     width: 0%;
 }
 
 .correct{
-    background-color: aquamarine;
+    background-color: rgb(127, 255, 202);
 }
 .incorrect{
     background-color:lightcoral;
@@ -63,12 +68,12 @@ justify-content: space-between;
 #loader {
     border: 1.6rem solid white;
     border-radius: 50%;
-    border-top: 1.6rem solid #56a5eb;
+    border-top: 1.6rem solid #687bd1;
     width: 12rem;
     height: 12rem;
     animation: spin 2s linear infinite;
   }
-  
+  /* animation for loader circle */
   @keyframes spin {
     0% {
       transform: rotate(0deg);
@@ -78,16 +83,10 @@ justify-content: space-between;
     }
   }
 
-/* Dictionary API formatting */
 
-/* Import Google Font - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
+
+
+/* Dictionary API formatting */
 body{
   display: flex;
   align-items: center;
@@ -97,7 +96,7 @@ body{
 }
 ::selection{
   color: #fff;
-  background: #4D59FB;
+  background: #373941;
 }
 .wrapper{
   width: 420px;
@@ -126,7 +125,7 @@ body{
 }
 .search input:focus{
   padding: 0 41px;
-  border: 2px solid #4D59FB;
+  border: 2px solid #687bd1;
 }
 .search input::placeholder{
   color: #B8B8B8;
@@ -143,7 +142,7 @@ body{
   font-size: 16px;
 }
 .search input:focus ~ i{
-  color: #4D59FB;
+  color: #687bd1;
 }
 .search span{
   right: 15px;
@@ -213,7 +212,7 @@ ul .content::-webkit-scrollbar{
 .content li .details{
   padding-left: 10px;
   border-radius: 4px 0 0 4px;
-  border-left: 3px solid #4D59FB;
+  border-left: 3px solid #687bd1;
 }
 .content li p{
   font-size: 17px;
