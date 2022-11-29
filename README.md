@@ -1,7 +1,7 @@
-# team-10-project-1
+# team-10-project-1: Quiz Study Buddy
 
 ## User Story
-AS A coding boot camp student I WANT to get my vibe checked SO THAT I can guage my results based on a gif and Youtube video
+AS A coding boot camp student I WANT to reference my potential answer choices SO THAT I can increase my chance to get a better quiz score.
 
 ## Acceptance Criteria
 
