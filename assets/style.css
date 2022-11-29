@@ -125,7 +125,8 @@ input {
   padding: 1.5rem;
   font-size: 2rem;
   border: none;
-  box-shadow: 0 0.1rem 1.4rem 0 rgba(88, 46, 241, 0.25);
+  border-radius: 15px;
+  box-shadow: 0 0.1rem 1.4rem 0 #FFBE94;
 }
 
 input::placeholder {
