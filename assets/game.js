@@ -5,6 +5,7 @@ const scoreText= document.getElementById("score")
 const progressBarFull= document.getElementById("progressBarFull")
 const loader= document.getElementById("loader")
 const game =document.getElementById("game")
+
 let currentQuestion= {};
 let acceptingAnswers= false;
 let score= 0;
@@ -64,7 +65,7 @@ getNewQuestion = () => {
    if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         //go to the end of game
         localStorage.setItem("mostRecentScore", score);
-        return window.location.assign('/end.html');
+        return window.location.assign('end.html');
     }
 
     questionCounter++;
@@ -112,4 +113,3 @@ incrementScore = num => {
 score += num;
  scoreText.innerText = score;
 };
-          

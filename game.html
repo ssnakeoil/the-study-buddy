@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/game.css">
 </head>
 <body>
-    
     <div class="container">
         <div id="loader"></div>
         <div id="game" class="justify-center flex-column hidden">
@@ -49,8 +49,49 @@
                 <p class="choice-text" data-number="4"></p>
              </div>
         </div>
-
     </div>
     <script src="assets/game.js"></script>
+
+    <!-- Dictionary API -->
+    <div class="wrapper">
+        <header>English Dictionary</header>
+        <div class="search">
+          <input type="text" placeholder="Search a word" required spellcheck="false">
+          <i class="fas fa-search"></i>
+          <span class="material-icons">close</span>
+        </div>
+        <p class="info-text">Type any existing word and press enter to get meaning, example, synonyms, etc.</p>
+        <ul>
+          <li class="word">
+            <div class="details">
+              <p>__</p>
+              <span>_ _</span>
+            </div>
+            <i class="fas fa-volume-up"></i>
+          </li>
+          <div class="content">
+            <li class="meaning">
+              <div class="details">
+                <p>Meaning</p>
+                <span>___</span>
+              </div>
+            </li>
+            <li class="example">
+              <div class="details">
+                <p>Example</p>
+                <span>___</span>
+              </div>
+            </li>
+            <li class="synonyms">
+              <div class="details">
+                <p>Synonyms</p>
+                <div class="list"></div>
+              </div>
+            </li>
+          </div>
+        </ul>
+      </div>
+      <script src="assets/dictionary.js"></script>
+    <!-- end Dictionary API -->
 </body>
 </html>
