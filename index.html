@@ -6,17 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quick Quiz</title>
     <link rel=" stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
 <body>
     <div class="container">
-
         <div id="home" class="flex-center flex-column">
          <!-- <h1>Quiz Study Buddy</h1> -->
         <img src="assets/images/the_buddy.png" class="buddy-index" title="I'll be your study Buddy! :)">
         <a class="btn" href="game.html"> Play</a>
         <a class="btn" href="highscores.html">Highscores</a>
-        
+        <!-- Blurb or "modal" using Bulma css framework -->
+        <button class="js-modal-trigger" data-target="modal-js-example">About Study Buddy</button>
+        <script src="assets/blurb.js"></script>
         </div>
     </div>
+    <!-- Modal content (Bulma)-->
+    <div id="modal-js-example" class="modal">
+        <div class="modal-background"></div>
+      
+        <div class="modal-content">
+          <div class="box">
+            <p>
+                Study Buddy is a study tool designed to allow the user to take a quiz while bringing along an API dictionary buddy!
+
+                This is a collaborative effort from the minds of:
+                <ul>
+                    <li><a href="https://github.com/jessikea">Jess Tran</a></li>
+                    <li><a href="https://github.com/ryanueva">Ryan Villanueva</a></li>
+                    <li><a href="https://github.com/chriscarapella">Chris Carapella</a></li>
+                    <li><a href="https://github.com/ssnakeoil">Stefi Lao</a></li>
+                </ul>
+                Click through to visit our GitHubs!
+            </p>
+            <!-- Your content -->
+          </div>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+      </div>
 </body>
 </html>
