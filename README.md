@@ -29,3 +29,9 @@ Have a quality README (with unique name, description, technologies used, screens
 
 ## Website URL
 https://ssnakeoil.github.io/team-10-project-1/
+=======
+## Screenshot
+![sb_game.png](/assets/images/sb_game.png)
+
+## Website URL
+https://ssnakeoil.github.io/team-10-project-1/
